@@ -8,8 +8,11 @@ Programs and scripts that test performance of WordNet similarity measurements us
 ##For Pedersen (2010)##
 
 WordNet 3.0
+
 WordNet::Similarity-2.05
+
 WordNet::QueryData-1.49
+
 Text::Similarity-0.09
 
 As of May 1st 2013, these are the latest version. Perl modules can be downloaded using CPAN.
