@@ -18,8 +18,11 @@ For Linux, consider installing WordNet using apt-get.
 ##For Patwardhan and Pedersen (2006)##
 
 WordNet 2.1
+
 WordNet::Similarity-1.02
+
 WordNet::Similarity-1.39
+
 Text::Similarity-0.02
 
 ##Having both settings next to each other on your computer##
