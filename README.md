@@ -31,7 +31,7 @@ Text::Similarity-0.02
 ##Having both settings next to each other on your computer##
 
 1. Install latest Pedersen (2010) versions (using apt-get and cpan, or following instructions from the WordNet homepage for mac)
-2. Download alternative versions of Patwardhan and Pedersen (2006) (do not install these on the same machine)
+2. Download alternative versions of Patwardhan and Pedersen (2006) (do **not** install these on the same machine)
 3. Prepare versions from Patwardhan and Pedersen (2006) so that they may be used for the experiments:
 
 	a. Prepare WordNet-QueryData:
@@ -48,10 +48,10 @@ Text::Similarity-0.02
 	
 		perl MakeFile.pl WNHOME=MY-PATH/WordNet-2.1
 
-##Preparing the experiments##
+#Preparing the experiments#
 
 	= coming soon =
 
-##Running the experiments##
+#Running the experiments#
 
 	= coming soon =
