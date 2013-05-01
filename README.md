@@ -38,8 +38,8 @@ Text::Similarity-0.02
 
 		export PERL5LIB=$PERL5LIB:MY-PATH/Text-Similarity-0.02/lib:MY-PATH/WordNet-QueryData-1.39/lib:MY-PATH/WordNet-Similarity-1.02/lib
 
-	    From the directory of WordNet-Similarity-1.02, run (replace MY-PATH with the appropriate path):
-
+	c. From the directory of WordNet-Similarity-1.02, run (replace MY-PATH with the appropriate path):
+	
 		perl MakeFile.pl WNHOME=MY-PATH/WordNet-2.1
 
 ##Preparing the experiments##
