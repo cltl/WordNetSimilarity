@@ -25,5 +25,27 @@ Text::Similarity-0.02
 ##Having both settings next to each other on your computer##
 
 1. Install latest Pedersen (2010) versions (using apt-get and cpan, or following instructions from the WordNet homepage for mac)
-2. Download alternative versions of Patwardhan and Pedersen (2006)
-3. Prepare older version for running
+2. Download alternative versions of Patwardhan and Pedersen (2006) (do not install these on the same machine)
+3. Prepare versions from Patwardhan and Pedersen (2006) so that they may be used for the experiments:
+
+	a. Prepare WordNet-QueryData:
+
+		In the directory of WordNet-QueryData-1.39, run:
+
+		mkdir -p lib/WordNet
+		cp QueryData.pm lib/WordNet/
+	b. Prepare default files for WordNet-Similarity (replace the MY-PATH with the appropriate paths):
+
+		export PERL5LIB=$PERL5LIB:MY-PATH/Text-Similarity-0.02/lib:MY-PATH/WordNet-QueryData-1.39/lib:MY-PATH/WordNet-Similarity-1.02/lib
+
+	    From the directory of WordNet-Similarity-1.02, run (replace MY-PATH with the appropriate path):
+
+		perl MakeFile.pl WNHOME=MY-PATH/WordNet-2.1
+
+##Preparing the experiments##
+
+	= coming soon =
+
+##Running the experiments##
+
+	= coming soon =
