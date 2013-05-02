@@ -28,6 +28,11 @@ WordNet::Similarity-1.39
 
 Text::Similarity-0.02
 
+##For Calculating Ranking Coefficients##
+
+SciPy
+
+
 ##Having both settings next to each other on your computer##
 
 1. Install latest Pedersen (2010) versions (using apt-get and cpan, or following instructions from the WordNet homepage for mac)
@@ -50,8 +55,12 @@ Text::Similarity-0.02
 
 #Preparing the experiments#
 
-	= coming soon =
+	Replace all instances of MY-PATH by the appropriate paths in the following files:
+	
+	- calculateScores_MC_RG_WN3.0_WNSIM_2.05.sh
+	- calculateScores_MC_RG_WN2.1_WNSIM_1.02.sh
 
 #Running the experiments#
 
-	= coming soon =
+	./RunFullWN3.0Exp.sh
+	./RunFullWN2.1Exp.sh
