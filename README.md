@@ -35,6 +35,11 @@ SciPy
 
 ##Having both settings next to each other on your computer##
 
+There is a perl module called ``only'' that allows you to install alternative versions of modules and specify which version should be used when calling use.
+It may be more convenient to use this module and change the perl scripts accordingly, if you plan to play with these settings a lot.
+
+I followed the steps below:
+
 1. Install latest Pedersen (2010) versions (using apt-get and cpan, or following instructions from the WordNet homepage for mac)
 2. Download alternative versions of Patwardhan and Pedersen (2006) (do **not** install these on the same machine)
 3. Prepare versions from Patwardhan and Pedersen (2006) so that they may be used for the experiments:
@@ -45,6 +50,9 @@ SciPy
 
 		mkdir -p lib/WordNet
 		cp QueryData.pm lib/WordNet/
+		
+	For simply running Patwardhan and Pedersen (2006):
+		
 	b. Prepare default files for WordNet-Similarity (replace the MY-PATH with the appropriate paths):
 
 		export PERL5LIB=$PERL5LIB:MY-PATH/Text-Similarity-0.02/lib:MY-PATH/WordNet-QueryData-1.39/lib:MY-PATH/WordNet-Similarity-1.02/lib
@@ -55,12 +63,16 @@ SciPy
 
 #Preparing the experiments#
 
-	Replace all instances of MY-PATH by the appropriate paths in the following files:
+	The current bash scripts assume that the older versions of Text::Similarity, WordNet::QueryData and WordNet::Similarity are all unpacked in the home directory.
+	If you unpacked them somewhere else, make sure to change the paths after all -I options in the following script: 
 	
-	- calculateScores_MC_RG_WN3.0_WNSIM_2.05.sh
 	- calculateScores_MC_RG_WN2.1_WNSIM_1.02.sh
 
 #Running the experiments#
 
 	./RunFullWN3.0Exp.sh
 	./RunFullWN2.1Exp.sh
+
+	and wait....
+	
+	Please don't hesitate to contact me if you have any problems.

@@ -1,5 +1,4 @@
-export WNHOME=MY-PATH/WordNet-3.0/
-export PERL5LIB=$PERL5LIB:MY-PATH/Text-Similarity-0.09/Text-Similarity-0.09/lib:MY-PATH/WordNet-QueryData-1.49/lib:MY-PATH/WordNet-Similarity-2.05/lib
+export WNHOME=/usr/local/WordNet-3.0/
 #set variable configs back to basics
 
 cp ../PerlScripts/config-files/config-lesk.conf-default ../PerlScripts/config-files/config-lesk.conf
