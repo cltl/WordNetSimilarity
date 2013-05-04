@@ -52,77 +52,77 @@ print STDERR "done.\n";
 
 
 print STDERR "Creating jcn object... ";
-my $jcn = WordNet::Similarity::jcn->new($wn, "config-files/config-jcn.conf");
+my $jcn = WordNet::Similarity::jcn->new($wn, "../PerlScripts/config-files/config-jcn.conf");
 die "Unable to create jcn object.\n" if(!defined $jcn);
 my ($error, $errString) = $jcn->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating res object... ";
-my $res = WordNet::Similarity::res->new($wn, "config-files/config-res.conf");
+my $res = WordNet::Similarity::res->new($wn, "../PerlScripts/config-files/config-res.conf");
 die "Unable to create res object.\n" if(!defined $res);
 ($error, $errString) = $res->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating lin object... ";
-my $lin = WordNet::Similarity::lin->new($wn, "config-files/config-lin.conf");
+my $lin = WordNet::Similarity::lin->new($wn, "../PerlScripts/config-files/config-lin.conf");
 die "Unable to create lin object.\n" if(!defined $lin);
 ($error, $errString) = $lin->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating wup object... ";
-my $wup = WordNet::Similarity::wup->new($wn, "config-files/config-wup.conf");
+my $wup = WordNet::Similarity::wup->new($wn, "../PerlScripts/config-files/config-wup.conf");
 die "Unable to create wup object.\n" if(!defined $wup);
 ($error, $errString) = $wup->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating lch object... ";
-my $lch = WordNet::Similarity::lch->new($wn, "config-files/config-lch.conf");
+my $lch = WordNet::Similarity::lch->new($wn, "../PerlScripts/config-files/config-lch.conf");
 die "Unable to create lch object.\n" if(!defined $lch);
 ($error, $errString) = $lch->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating hso object... ";
-my $hso = WordNet::Similarity::hso->new($wn, "config-files/config-hso.conf");
+my $hso = WordNet::Similarity::hso->new($wn, "../PerlScripts/config-files/config-hso.conf");
 die "Unable to create hso object.\n" if(!defined $hso);
 ($error, $errString) = $hso->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating path object... ";
-my $path = WordNet::Similarity::path->new($wn, "config-files/config-path.conf");
+my $path = WordNet::Similarity::path->new($wn, "../PerlScripts/config-files/config-path.conf");
 die "Unable to create path object.\n" if(!defined $path);
 ($error, $errString) = $path->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating random object... ";
-my $random = WordNet::Similarity::random->new($wn, "config-files/config-random.conf");
+my $random = WordNet::Similarity::random->new($wn, "../PerlScripts/config-files/config-random.conf");
 die "Unable to create random object.\n" if(!defined $random);
 ($error, $errString) = $random->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating lesk object... ";
-my $lesk = WordNet::Similarity::lesk->new($wn, "config-files/config-lesk.conf");
+my $lesk = WordNet::Similarity::lesk->new($wn, "../PerlScripts/config-files/config-lesk.conf");
 die "Unable to create lesk object.\n" if(!defined $lesk);
 ($error, $errString) = $lesk->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating vector object... ";
-my $vector = WordNet::Similarity::vector->new($wn, "config-files/config-vector.conf");
+my $vector = WordNet::Similarity::vector->new($wn, "../PerlScripts/config-files/config-vector.conf");
 die "Unable to create vector object.\n" if(!defined $vector);
 ($error, $errString) = $vector->getError();
 die $errString if($error > 1);
 print STDERR "done.\n";
 
 print STDERR "Creating vector_pairs object... ";
-my $vector_pairs = WordNet::Similarity::vector_pairs->new($wn, "config-files/config-vector_pairs.conf");
+my $vector_pairs = WordNet::Similarity::vector_pairs->new($wn, "../PerlScripts/config-files/config-vector_pairs.conf");
 die "Unable to create vector_pairs object.\n" if(!defined $vector_pairs);
 ($error, $errString) = $vector_pairs->getError();
 die $errString if($error > 1);

@@ -63,7 +63,7 @@ my $wn = WordNet::QueryData->new;
 die "Unable to create WordNet object.\n" if(!$wn);
 print STDERR "done.\n";
 
-my $config = "config-files/config-$measure.conf";
+my $config = "../PerlScripts/config-files/config-$measure.conf";
 print $config, "\n";
 
 print STDERR "Creating ", $measure ," object... ";
