@@ -1,0 +1,131 @@
+65
+<>gem<>jewel<>59 1
+
+<>midday<>noon<>59 1
+
+<>car<>automobile<>59 1
+
+<>cushion<>pillow<>50 0.933333333333333
+
+<>boy<>lad<>49 0.923076923076923
+
+<>cock<>roster<>3 0.111111111111111
+
+<>tool<>implement<>50 0.933333333333333
+
+<>forest<>woodland<>59 1
+
+<>coast<>shore<>48 0.909090909090909
+
+<>autograph<>signature<>54 0.941176470588235
+
+<>journey<>voyage<>58 0.956521739130435
+
+<>serf<>slave<>46 0.769230769230769
+
+<>grin<>smile<>59 1
+
+<>glass<>tumbler<>54 0.941176470588235
+
+<>cord<>string<>50 0.933333333333333
+
+<>hill<>mound<>59 1
+
+<>magician<>wizard<>59 1
+
+<>furnace<>stove<>27 0.588235294117647
+
+<>asylum<>madhouse<>57 0.952380952380952
+
+<>brother<>monk<>50 0.933333333333333
+
+<>food<>fruit<>21 0.470588235294118
+
+<>bird<>cock<>56 0.947368421052632
+
+<>bird<>crane<>47 0.857142857142857
+
+<>oracle<>sage<>37 0.666666666666667
+
+<>sage<>wizard<>31 0.615384615384615
+
+<>brother<>lad<>37 0.666666666666667
+
+<>crane<>implement<>45 0.75
+
+<>magician<>oracle<>26 0.571428571428571
+
+<>glass<>jewel<>27 0.588235294117647
+
+<>cemetery<>mound<>14 0.375
+
+<>car<>journey<>2 0.1
+
+<>hill<>woodland<>24 0.545454545454545
+
+<>crane<>rooster<>44 0.72
+
+<>furnace<>implement<>37 0.666666666666667
+
+<>coast<>hill<>37 0.666666666666667
+
+<>bird<>woodland<>16 0.428571428571429
+
+<>shore<>voyage<>4 0.117647058823529
+
+<>cemetery<>woodland<>16 0.428571428571429
+
+<>food<>rooster<>8 0.235294117647059
+
+<>forest<>graveyard<>16 0.428571428571429
+
+<>lad<>wizard<>37 0.666666666666667
+
+<>mound<>shore<>37 0.666666666666667
+
+<>automobile<>cushion<>29 0.6
+
+<>boy<>sage<>31 0.615384615384615
+
+<>monk<>oracle<>23 0.533333333333333
+
+<>shore<>woodland<>29 0.6
+
+<>grin<>lad<>6 0.142857142857143
+
+<>coast<>forest<>24 0.545454545454545
+
+<>asylum<>cemetery<>11 0.352941176470588
+
+<>monk<>slave<>37 0.666666666666667
+
+<>cushion<>jewel<>33 0.625
+
+<>glass<>magician<>20 0.461538461538462
+
+<>boy<>rooster<>22 0.476190476190476
+
+<>graveyard<>madhouse<>9 0.3
+
+<>asylum<>monk<>11 0.352941176470588
+
+<>asylum<>fruit<>33 0.625
+
+<>grin<>implement<>5 0.133333333333333
+
+<>mound<>stove<>36 0.631578947368421
+
+<>chord<>smile<>19 0.444444444444444
+
+<>automobile<>wizard<>10 0.315789473684211
+
+<>autograph<>shore<>7 0.166666666666667
+
+<>fruit<>furnace<>33 0.625
+
+<>rooster<>voyage<>1 0.08
+
+<>noon<>string<>11 0.352941176470588
+
+<>cord<>smile<>14 0.375
+

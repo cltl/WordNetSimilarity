@@ -1,0 +1,288 @@
+mc,  conf , jcn,  all pos cross
+Spearman ranking: 0.724295641834 Kendall tau: 0.513359678365
+mc,   conf  , jcn,  all pos id
+Spearman ranking: 0.724295641834 Kendall tau: 0.513359678365
+mc,   conf , jcn,  nouns only
+Spearman ranking: 0.690619703888 Kendall tau: 0.469772523257
+mc,  conf , lesk,  all pos cross
+Spearman ranking: 0.810949193954 Kendall tau: 0.613613823364
+mc,   conf  , lesk,  all pos id
+Spearman ranking: 0.814287349253 Kendall tau: 0.613613823364
+mc,   conf , lesk,  nouns only
+Spearman ranking: 0.784689038935 Kendall tau: 0.581318358976
+mc,  conf , path,  all pos cross
+Spearman ranking: 0.732032188005 Kendall tau: 0.576440208731
+mc,   conf  , path,  all pos id
+Spearman ranking: 0.732032188005 Kendall tau: 0.576440208731
+mc,   conf , path,  nouns only
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,  conf , lch,  all pos cross
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,   conf  , lch,  all pos id
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,   conf , lch,  nouns only
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,  conf , vector,  all pos cross
+Spearman ranking: 0.891275339235 Kendall tau: 0.713627769172
+mc,   conf  , vector,  all pos id
+Spearman ranking: 0.898842666376 Kendall tau: 0.722865669097
+mc,   conf , vector,  nouns only
+Spearman ranking: 0.896839550368 Kendall tau: 0.722865669097
+mc,  conf , lin,  all pos cross
+Spearman ranking: 0.725145543833 Kendall tau: 0.529772631791
+mc,   conf  , lin,  all pos id
+Spearman ranking: 0.725145543833 Kendall tau: 0.529772631791
+mc,   conf , lin,  nouns only
+Spearman ranking: 0.690833424288 Kendall tau: 0.496521160799
+mc,  conf , res,  all pos cross
+Spearman ranking: 0.741886774909 Kendall tau: 0.569801190482
+mc,   conf  , res,  all pos id
+Spearman ranking: 0.741886774909 Kendall tau: 0.569801190482
+mc,   conf , res,  nouns only
+Spearman ranking: 0.741886774909 Kendall tau: 0.569801190482
+mc,  conf , random,  all pos cross
+Spearman ranking: 0.168688114439 Kendall tau: 0.115340944241
+mc,   conf  , random,  all pos id
+Spearman ranking: 0.0131300775091 Kendall tau: 0.013840913309
+mc,   conf , random,  nouns only
+Spearman ranking: 0.144780773673 Kendall tau: 0.0808316243399
+mc,  conf , wup,  all pos cross
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,   conf  , wup,  all pos id
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,   conf , wup,  nouns only
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,  conf , vector_pairs,  all pos cross
+Spearman ranking: 0.695894107984 Kendall tau: 0.502886516892
+mc,   conf  , vector_pairs,  all pos id
+Spearman ranking: 0.663180186054 Kendall tau: 0.475204690274
+mc,   conf , vector_pairs,  nouns only
+Spearman ranking: 0.663180186054 Kendall tau: 0.475204690274
+mc,  conf , hso,  all pos cross
+Spearman ranking: 0.800004451302 Kendall tau: 0.35954416105
+mc,   conf  , hso,  all pos id
+Spearman ranking: 0.800004451302 Kendall tau: 0.35954416105
+mc,   conf , hso,  nouns only
+Spearman ranking: 0.800004451302 Kendall tau: 0.35954416105
+mc,  conf6 , lch,  all pos cross
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,   conf6  , lch,  all pos id
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,   conf6 , lch,  nouns only
+Spearman ranking: 0.760603033009 Kendall tau: 0.59932297986
+mc,  conf6 , lesk,  all pos cross
+Spearman ranking: 0.810949193954 Kendall tau: 0.613613823364
+mc,   conf6  , lesk,  all pos id
+Spearman ranking: 0.814287349253 Kendall tau: 0.613613823364
+mc,   conf6 , lesk,  nouns only
+Spearman ranking: 0.784689038935 Kendall tau: 0.581318358976
+mc,  conf6 , wup,  all pos cross
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,   conf6  , wup,  all pos id
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,   conf6 , wup,  nouns only
+Spearman ranking: 0.768762131359 Kendall tau: 0.585009800975
+mc,  , conf6-9,  lesk, all pos cross
+Spearman ranking: 0.826135351736 Kendall tau: 0.0115740740741
+mc,  , conf6-9,  lesk, all pos id
+Spearman ranking: 0.826135351736 Kendall tau: 0.0115740740741
+mc,  , conf6-9,  lesk, nouns only
+Spearman ranking: 0.826135351736 Kendall tau: 0.0115740740741
+mc,  , conf6,  lesk, all pos cross
+Spearman ranking: 0.810949193954 Kendall tau: 0.613613823364
+mc,  , conf6,  lesk, all pos id
+Spearman ranking: 0.814287349253 Kendall tau: 0.613613823364
+mc,  , conf6,  lesk, nouns only
+Spearman ranking: 0.784689038935 Kendall tau: 0.581318358976
+mc-mc,  conf , jcn,  all pos cross
+Spearman ranking: 0.694707628697 Kendall tau: 0.502910701665
+mc-mc,   conf  , jcn,  all pos id
+Spearman ranking: 0.694707628697 Kendall tau: 0.502910701665
+mc-mc,   conf , jcn,  nouns only
+Spearman ranking: 0.656563552143 Kendall tau: 0.459208706781
+mc-mc,  conf , lesk,  all pos cross
+Spearman ranking: 0.756817034267 Kendall tau: 0.573419984376
+mc-mc,   conf  , lesk,  all pos id
+Spearman ranking: 0.769504849253 Kendall tau: 0.573419984376
+mc-mc,   conf , lesk,  nouns only
+Spearman ranking: 0.742571066563 Kendall tau: 0.541049501387
+mc-mc,  conf , path,  all pos cross
+Spearman ranking: 0.701330361909 Kendall tau: 0.545952391172
+mc-mc,   conf  , path,  all pos id
+Spearman ranking: 0.701330361909 Kendall tau: 0.545952391172
+mc-mc,   conf , path,  nouns only
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,  conf , lch,  all pos cross
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,   conf  , lch,  all pos id
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,   conf , lch,  nouns only
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,  conf , vector,  all pos cross
+Spearman ranking: 0.916184418504 Kendall tau: 0.752322877303
+mc-mc,   conf  , vector,  all pos id
+Spearman ranking: 0.924198666849 Kendall tau: 0.761582235793
+mc-mc,   conf , vector,  nouns only
+Spearman ranking: 0.915739182484 Kendall tau: 0.743063518813
+mc-mc,  conf , lin,  all pos cross
+Spearman ranking: 0.705351608888 Kendall tau: 0.50059335518
+mc-mc,   conf  , lin,  all pos id
+Spearman ranking: 0.705351608888 Kendall tau: 0.50059335518
+mc-mc,   conf , lin,  nouns only
+Spearman ranking: 0.668564206455 Kendall tau: 0.462461701686
+mc-mc,  conf , res,  all pos cross
+Spearman ranking: 0.748857756663 Kendall tau: 0.545271387514
+mc-mc,   conf  , res,  all pos id
+Spearman ranking: 0.748857756663 Kendall tau: 0.545271387514
+mc-mc,   conf , res,  nouns only
+Spearman ranking: 0.748857756663 Kendall tau: 0.545271387514
+mc-mc,  conf , random,  all pos cross
+Spearman ranking: 0.163828628594 Kendall tau: 0.110984513105
+mc-mc,   conf  , random,  all pos id
+Spearman ranking: 0.00712298385193 Kendall tau: 0.032370482989
+mc-mc,   conf , random,  nouns only
+Spearman ranking: 0.144145161215 Kendall tau: 0.0856490660314
+mc-mc,  conf , wup,  all pos cross
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,   conf  , wup,  all pos id
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,   conf , wup,  nouns only
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,  conf , vector_pairs,  all pos cross
+Spearman ranking: 0.670228261817 Kendall tau: 0.499430308973
+mc-mc,   conf  , vector_pairs,  all pos id
+Spearman ranking: 0.663550464456 Kendall tau: 0.480932890122
+mc-mc,   conf , vector_pairs,  nouns only
+Spearman ranking: 0.663550464456 Kendall tau: 0.480932890122
+mc-mc,  conf , hso,  all pos cross
+Spearman ranking: 0.75274320881 Kendall tau: 0.370602867633
+mc-mc,   conf  , hso,  all pos id
+Spearman ranking: 0.75274320881 Kendall tau: 0.370602867633
+mc-mc,   conf , hso,  nouns only
+Spearman ranking: 0.75274320881 Kendall tau: 0.370602867633
+mc-mc,  conf6 , lch,  all pos cross
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,   conf6  , lch,  all pos id
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,   conf6 , lch,  nouns only
+Spearman ranking: 0.724512982295 Kendall tau: 0.564086165534
+mc-mc,  conf6 , lesk,  all pos cross
+Spearman ranking: 0.756817034267 Kendall tau: 0.573419984376
+mc-mc,   conf6  , lesk,  all pos id
+Spearman ranking: 0.769504849253 Kendall tau: 0.573419984376
+mc-mc,   conf6 , lesk,  nouns only
+Spearman ranking: 0.742571066563 Kendall tau: 0.541049501387
+mc-mc,  conf6 , wup,  all pos cross
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,   conf6  , wup,  all pos id
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,   conf6 , wup,  nouns only
+Spearman ranking: 0.740901046231 Kendall tau: 0.565089200931
+mc-mc,  , conf6-9,  lesk, all pos cross
+Spearman ranking: 0.799599218219 Kendall tau: 0.0301624941794
+mc-mc,  , conf6-9,  lesk, all pos id
+Spearman ranking: 0.799599218219 Kendall tau: 0.0301624941794
+mc-mc,  , conf6-9,  lesk, nouns only
+Spearman ranking: 0.799599218219 Kendall tau: 0.0301624941794
+mc-mc,  , conf6,  lesk, all pos cross
+Spearman ranking: 0.756817034267 Kendall tau: 0.573419984376
+mc-mc,  , conf6,  lesk, all pos id
+Spearman ranking: 0.769504849253 Kendall tau: 0.573419984376
+mc-mc,  , conf6,  lesk, nouns only
+Spearman ranking: 0.742571066563 Kendall tau: 0.541049501387
+rg,  conf , jcn,  all pos cross
+Spearman ranking: 0.481457053383 Kendall tau: 0.344688485205
+rg,   conf  , jcn,  all pos id
+Spearman ranking: 0.481457053383 Kendall tau: 0.344688485205
+rg,   conf , jcn,  nouns only
+Spearman ranking: 0.455582298015 Kendall tau: 0.318339965971
+rg,  conf , lesk,  all pos cross
+Spearman ranking: 0.663592457225 Kendall tau: 0.46605729887
+rg,   conf  , lesk,  all pos id
+Spearman ranking: 0.66999584907 Kendall tau: 0.470871940388
+rg,   conf , lesk,  nouns only
+Spearman ranking: 0.680813866009 Kendall tau: 0.480501223422
+rg,  conf , path,  all pos cross
+Spearman ranking: 0.702244240537 Kendall tau: 0.550951760242
+rg,   conf  , path,  all pos id
+Spearman ranking: 0.702244240537 Kendall tau: 0.550951760242
+rg,   conf , path,  nouns only
+Spearman ranking: 0.70288627707 Kendall tau: 0.546590741595
+rg,  conf , lch,  all pos cross
+Spearman ranking: 0.711616073649 Kendall tau: 0.555372644403
+rg,   conf  , lch,  all pos id
+Spearman ranking: 0.711616073649 Kendall tau: 0.555372644403
+rg,   conf , lch,  nouns only
+Spearman ranking: 0.70288627707 Kendall tau: 0.546590741595
+rg,  conf , vector,  all pos cross
+Spearman ranking: 0.72111066295 Kendall tau: 0.539851101585
+rg,   conf  , vector,  all pos id
+Spearman ranking: 0.740452177299 Kendall tau: 0.557187979067
+rg,   conf , vector,  nouns only
+Spearman ranking: 0.738922340006 Kendall tau: 0.558151138927
+rg,  conf , lin,  all pos cross
+Spearman ranking: 0.515963368309 Kendall tau: 0.380275351948
+rg,   conf  , lin,  all pos id
+Spearman ranking: 0.515963368309 Kendall tau: 0.380275351948
+rg,   conf , lin,  nouns only
+Spearman ranking: 0.491841069284 Kendall tau: 0.357685066199
+rg,  conf , res,  all pos cross
+Spearman ranking: 0.664861130945 Kendall tau: 0.441722572547
+rg,   conf  , res,  all pos id
+Spearman ranking: 0.664861130945 Kendall tau: 0.441722572547
+rg,   conf , res,  nouns only
+Spearman ranking: 0.664861130945 Kendall tau: 0.441722572547
+rg,  conf , random,  all pos cross
+Spearman ranking: 0.176541294608 Kendall tau: 0.117477253021
+rg,   conf  , random,  all pos id
+Spearman ranking: 0.182747995235 Kendall tau: 0.110736754897
+rg,   conf , random,  nouns only
+Spearman ranking: 0.193863167271 Kendall tau: 0.136287120204
+rg,  conf , wup,  all pos cross
+Spearman ranking: 0.696621231936 Kendall tau: 0.525986206237
+rg,   conf  , wup,  all pos id
+Spearman ranking: 0.696621231936 Kendall tau: 0.525986206237
+rg,   conf , wup,  nouns only
+Spearman ranking: 0.695256550438 Kendall tau: 0.523409832034
+rg,  conf , vector_pairs,  all pos cross
+Spearman ranking: 0.686161378398 Kendall tau: 0.485549358273
+rg,   conf  , vector_pairs,  all pos id
+Spearman ranking: 0.63381851621 Kendall tau: 0.444123520166
+rg,   conf , vector_pairs,  nouns only
+Spearman ranking: 0.642669814409 Kendall tau: 0.451830652837
+rg,  conf , hso,  all pos cross
+Spearman ranking: 0.72716964945 Kendall tau: 0.412072649589
+rg,   conf  , hso,  all pos id
+Spearman ranking: 0.72716964945 Kendall tau: 0.412072649589
+rg,   conf , hso,  nouns only
+Spearman ranking: 0.72716964945 Kendall tau: 0.412072649589
+rg,  conf6 , lch,  all pos cross
+Spearman ranking: 0.70288627707 Kendall tau: 0.546590741595
+rg,   conf6  , lch,  all pos id
+Spearman ranking: 0.711616073649 Kendall tau: 0.555372644403
+rg,   conf6 , lch,  nouns only
+Spearman ranking: 0.70288627707 Kendall tau: 0.546590741595
+rg,  conf6 , lesk,  all pos cross
+Spearman ranking: 0.663592457225 Kendall tau: 0.46605729887
+rg,   conf6  , lesk,  all pos id
+Spearman ranking: 0.66999584907 Kendall tau: 0.470871940388
+rg,   conf6 , lesk,  nouns only
+Spearman ranking: 0.680813866009 Kendall tau: 0.480501223422
+rg,  conf6 , wup,  all pos cross
+Spearman ranking: 0.695675123904 Kendall tau: 0.524227333094
+rg,   conf6  , wup,  all pos id
+Spearman ranking: 0.696621231936 Kendall tau: 0.525986206237
+rg,   conf6 , wup,  nouns only
+Spearman ranking: 0.695256550438 Kendall tau: 0.523409832034
+rg,  , conf6-9,  lesk, all pos cross
+Spearman ranking: 0.663595630952 Kendall tau: 0.0482859029062
+rg,  , conf6-9,  lesk, all pos id
+Spearman ranking: 0.663595630952 Kendall tau: 0.0482859029062
+rg,  , conf6-9,  lesk, nouns only
+Spearman ranking: 0.663595630952 Kendall tau: 0.0482859029062
+rg,  , conf6,  lesk, all pos cross
+Spearman ranking: 0.663592457225 Kendall tau: 0.46605729887
+rg,  , conf6,  lesk, all pos id
+Spearman ranking: 0.66999584907 Kendall tau: 0.470871940388
+rg,  , conf6,  lesk, nouns only
+Spearman ranking: 0.680813866009 Kendall tau: 0.480501223422

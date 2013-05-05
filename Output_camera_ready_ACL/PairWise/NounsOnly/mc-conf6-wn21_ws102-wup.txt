@@ -1,0 +1,61 @@
+30
+<>car<>automobile<>27 1
+
+<>gem<>jewel<>27 1
+
+<>journey<>voyage<>26 0.956521739130435
+
+<>boy<>lad<>21 0.923076923076923
+
+<>coast<>shore<>20 0.909090909090909
+
+<>asylum<>madhouse<>25 0.952380952380952
+
+<>magician<>wizard<>27 1
+
+<>midday<>noon<>27 1
+
+<>furnace<>stove<>12 0.588235294117647
+
+<>food<>fruit<>9 0.470588235294118
+
+<>bird<>cock<>24 0.947368421052632
+
+<>bird<>crane<>19 0.857142857142857
+
+<>tool<>implement<>22 0.933333333333333
+
+<>brother<>monk<>22 0.933333333333333
+
+<>crane<>implement<>18 0.75
+
+<>lad<>brother<>14 0.666666666666667
+
+<>journey<>car<>2 0.1
+
+<>monk<>oracle<>10 0.533333333333333
+
+<>cemetery<>woodland<>5 0.428571428571429
+
+<>food<>rooster<>3 0.235294117647059
+
+<>coast<>hill<>14 0.666666666666667
+
+<>forest<>graveyard<>5 0.428571428571429
+
+<>shore<>woodland<>13 0.6
+
+<>monk<>slave<>14 0.666666666666667
+
+<>coast<>forest<>11 0.545454545454545
+
+<>lad<>wizard<>14 0.666666666666667
+
+<>chord<>smile<>7 0.444444444444444
+
+<>glass<>magician<>8 0.461538461538462
+
+<>noon<>string<>4 0.352941176470588
+
+<>rooster<>voyage<>1 0.08
+

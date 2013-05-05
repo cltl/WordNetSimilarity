@@ -1,0 +1,131 @@
+65
+<>gem<>jewel<>64 2431
+
+<>midday<>noon<>48 152
+
+<>car<>automobile<>65 9519
+
+<>cushion<>pillow<>59 462
+
+<>boy<>lad<>48 152
+
+<>cock<>roster<>15 26
+
+<>tool<>implement<>61 509
+
+<>forest<>woodland<>63 1732
+
+<>coast<>shore<>55 330
+
+<>autograph<>signature<>35 73
+
+<>journey<>voyage<>52 180
+
+<>serf<>slave<>32 51
+
+<>grin<>smile<>58 451
+
+<>glass<>tumbler<>54 315
+
+<>cord<>string<>56 369
+
+<>hill<>mound<>62 1226
+
+<>magician<>wizard<>57 421
+
+<>furnace<>stove<>53 190
+
+<>asylum<>madhouse<>41 104
+
+<>brother<>monk<>60 503
+
+<>food<>fruit<>45 128
+
+<>bird<>cock<>46 147
+
+<>bird<>crane<>36 74
+
+<>oracle<>sage<>15 26
+
+<>sage<>wizard<>21 31
+
+<>brother<>lad<>19 29
+
+<>crane<>implement<>30 48
+
+<>magician<>oracle<>21 31
+
+<>glass<>jewel<>39 91
+
+<>cemetery<>mound<>14 25
+
+<>car<>journey<>51 179
+
+<>hill<>woodland<>38 80
+
+<>crane<>rooster<>3 12
+
+<>furnace<>implement<>47 150
+
+<>coast<>hill<>44 123
+
+<>bird<>woodland<>43 113
+
+<>shore<>voyage<>29 46
+
+<>cemetery<>woodland<>10 21
+
+<>food<>rooster<>9 19
+
+<>forest<>graveyard<>10 21
+
+<>lad<>wizard<>4 13
+
+<>mound<>shore<>27 45
+
+<>automobile<>cushion<>50 168
+
+<>boy<>sage<>26 43
+
+<>monk<>oracle<>20 30
+
+<>shore<>woodland<>34 70
+
+<>grin<>lad<>6 15
+
+<>coast<>forest<>40 94
+
+<>asylum<>cemetery<>4 13
+
+<>monk<>slave<>36 74
+
+<>cushion<>jewel<>33 65
+
+<>glass<>magician<>15 26
+
+<>boy<>rooster<>8 18
+
+<>graveyard<>madhouse<>1 8
+
+<>asylum<>monk<>25 36
+
+<>asylum<>fruit<>18 28
+
+<>grin<>implement<>13 24
+
+<>mound<>stove<>30 48
+
+<>chord<>smile<>12 22
+
+<>automobile<>wizard<>27 45
+
+<>autograph<>shore<>21 31
+
+<>fruit<>furnace<>42 110
+
+<>rooster<>voyage<>2 10
+
+<>noon<>string<>7 16
+
+<>cord<>smile<>24 34
+

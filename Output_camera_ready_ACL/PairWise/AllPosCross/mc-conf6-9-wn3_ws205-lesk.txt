@@ -1,0 +1,61 @@
+30
+<>car<>automobile<>30 9519
+
+<>gem<>jewel<>29 2431
+
+<>journey<>voyage<>23 180
+
+<>boy<>lad<>20 152
+
+<>coast<>shore<>25 330
+
+<>asylum<>madhouse<>16 104
+
+<>magician<>wizard<>26 421
+
+<>midday<>noon<>20 152
+
+<>furnace<>stove<>24 190
+
+<>food<>fruit<>18 128
+
+<>bird<>cock<>19 147
+
+<>bird<>crane<>13 74
+
+<>tool<>implement<>28 509
+
+<>brother<>monk<>27 503
+
+<>crane<>implement<>11 48
+
+<>lad<>brother<>9 29
+
+<>journey<>car<>22 179
+
+<>monk<>oracle<>10 30
+
+<>cemetery<>woodland<>5 21
+
+<>food<>rooster<>4 19
+
+<>coast<>hill<>17 123
+
+<>forest<>graveyard<>5 21
+
+<>shore<>woodland<>12 70
+
+<>monk<>slave<>13 74
+
+<>coast<>forest<>15 94
+
+<>lad<>wizard<>2 13
+
+<>chord<>smile<>7 22
+
+<>glass<>magician<>8 26
+
+<>noon<>string<>3 16
+
+<>rooster<>voyage<>1 10
+
