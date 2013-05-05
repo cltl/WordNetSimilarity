@@ -35,44 +35,42 @@ SciPy
 
 ##Having both settings next to each other on your computer##
 
-There is a perl module called ``only'' that allows you to install alternative versions of modules and specify which version should be used when calling use.
-It may be more convenient to use this module and change the perl scripts accordingly, if you plan to play with these settings a lot.
+The scripts to run the experiment use the option -I to point perl to older versions of the module.
+If you plan to run a lot of experiments with different versions of WordNet::Similarity, you may want to consider installing:
 
-I followed the steps below:
+http://search.cpan.org/~ingy/only-0.28/lib/only.pm
+
+and adapt the scripts accordingly.
+
+To use the current scripts:
 
 1. Install latest Pedersen (2010) versions (using apt-get and cpan, or following instructions from the WordNet homepage for mac)
 2. Download alternative versions of Patwardhan and Pedersen (2006) (do **not** install these on the same machine)
+
+The scripts assume the files with the older versions are unpacked in your home directory.
+
 3. Prepare versions from Patwardhan and Pedersen (2006) so that they may be used for the experiments:
 
-	a. Prepare WordNet-QueryData:
+Prepare WordNet-QueryData:
 
 		In the directory of WordNet-QueryData-1.39, run:
 
 		mkdir -p lib/WordNet
 		cp QueryData.pm lib/WordNet/
 		
-	For simply running Patwardhan and Pedersen (2006):
 		
-	b. Prepare default files for WordNet-Similarity (replace the MY-PATH with the appropriate paths):
-
-		export PERL5LIB=$PERL5LIB:MY-PATH/Text-Similarity-0.02/lib:MY-PATH/WordNet-QueryData-1.39/lib:MY-PATH/WordNet-Similarity-1.02/lib
-
-	c. From the directory of WordNet-Similarity-1.02, run (replace MY-PATH with the appropriate path):
-	
-		perl MakeFile.pl WNHOME=MY-PATH/WordNet-2.1
 
 #Preparing the experiments#
 
 	The current bash scripts assume that the older versions of Text::Similarity, WordNet::QueryData and WordNet::Similarity are all unpacked in the home directory.
-	If you unpacked them somewhere else, make sure to change the paths after all -I options in the following script: 
+	If you unpacked them somewhere else, make sure to change the paths after all -I options in the following script so that they point to the right directories: 
 	
 	- calculateScores_MC_RG_WN2.1_WNSIM_1.02.sh
 
 #Running the experiments#
 
-	./RunFullWN3.0Exp.sh
-	./RunFullWN2.1Exp.sh
+	./RunBothExperiments.sh
 
-	and wait....
+	and wait....it takes a while for the full experiments to run
 	
 	Please don't hesitate to contact me if you have any problems.

@@ -1,9 +1,3 @@
-#create output directories
-mkdir -p ../../Output/AllPosCross
-mkdir ../../Output/AllPosId
-mkdir ../../Output/NounsOnly
-mkdir ../../Output/PairWise
-
 bash ./calculateScores_MC_RG_WN3.0_WNSIM_2.05.sh
 bash ./ConvertToPairWiseWN3.sh
 bash ./CalculateRankCoefficientsWN3.sh > ../../Output/results_wn3.txt
