@@ -15,7 +15,7 @@ WordNet::QueryData-1.49
 
 Text::Similarity-0.09
 
-As of May 1st 2013, these are the latest version. Perl modules can be downloaded using CPAN.
+As of May 1st 2013, these are the latest versions. Perl modules can be downloaded using CPAN.
 For Linux, consider installing WordNet using apt-get.
 
 ##For Patwardhan and Pedersen (2006)##
@@ -31,11 +31,11 @@ Text::Similarity-0.02
 ##For Calculating Ranking Coefficients##
 
 SciPy
-
+Pycluster
 
 ##Having both settings next to each other on your computer##
 
-The scripts to run the experiment use the option -I to point perl to older versions of the module.
+The scripts to run the experiments use the option -I to point perl to older versions of the module.
 If you plan to run a lot of experiments with different versions of WordNet::Similarity, you may want to consider installing:
 
 http://search.cpan.org/~ingy/only-0.28/lib/only.pm
@@ -67,6 +67,11 @@ Prepare WordNet-QueryData:
 	
 	- calculateScores_MC_RG_WN2.1_WNSIM_1.02.sh
 
+	NB: 	There have been reports that unzipping in the home folder may lead to slightly different paths.
+		The current path in the script would be (e.g.) ~/WordNet-QueryData-1.39/lib/
+		Though the actual path may be: ~/WordNet-QueryData-1.39/WordNet-QueryData-1.39/lib/  
+	Please check the actual path and adapt the script if necessary.
+	
 #Running the experiments#
 
 	./RunBothExperiments.sh
