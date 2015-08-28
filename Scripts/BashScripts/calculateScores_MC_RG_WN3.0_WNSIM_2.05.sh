@@ -7,12 +7,18 @@ cp ../PerlScripts/config-files/config-wup.conf-default ../PerlScripts/config-fil
 
 #run programs with default configuration files
 
+[ -d ../../Output/AllPosCross ] || mkdir -p ../../Output/AllPosCross
+
 perl ../PerlScripts/similarity_scores_config_allPosCross.pl ../../Data/mc.txt ../../Output/AllPosCross/mc-conf-wn3_ws_2.05.txt
 perl ../PerlScripts/similarity_scores_config_allPosCross.pl ../../Data/rg.txt ../../Output/AllPosCross/rg-conf-wn3_ws_2.05.txt
+
+[ -d ../../Output/AllPosId ] || mkdir -p ../../Output/AllPosId
 
 perl ../PerlScripts/similarity_scores_config_all_id_pos.pl ../../Data/mc.txt ../../Output/AllPosId/mc-conf-wn3_ws_2.05.txt
 perl ../PerlScripts/similarity_scores_config_all_id_pos.pl ../../Data/rg.txt ../../Output/AllPosId/rg-conf-wn3_ws_2.05.txt
 
+
+[ -d ../../Output/NounsOnly ] || mkdir -p ../../Output/NounsOnly
 
 perl ../PerlScripts/similarity_scores_config_n_only.pl ../../Data/mc.txt ../../Output/NounsOnly/mc-conf-wn3_ws_2.05.txt
 perl ../PerlScripts/similarity_scores_config_n_only.pl ../../Data/rg.txt ../../Output/NounsOnly/rg-conf-wn3_ws_2.05.txt
