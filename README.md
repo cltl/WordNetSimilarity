@@ -78,4 +78,4 @@ Prepare WordNet-QueryData:
 
 	and wait....it takes a while for the full experiments to run
 	
-	Please don't hesitate to contact me if you have any problems.
+	Please don't hesitate to contact me if you have any problems: antske.fokkens@vu.nl
