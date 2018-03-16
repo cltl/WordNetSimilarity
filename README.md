@@ -78,4 +78,32 @@ Prepare WordNet-QueryData:
 
 	and wait....it takes a while for the full experiments to run
 	
+#Contact#
+
 	Please don't hesitate to contact me if you have any problems: antske.fokkens@vu.nl
+    
+#Latest Verification and Troubleshooting#
+
+Latest Repitition of Experiment: March 2018
+
+Carried out: WordNet 3 experiments with latest perl modules
+Operating Systems:
+- MacOS (High Sierra)
+- Ubuntu 16.04
+
+Installing WordNet 3:
+
+The recommended way to install WordNet 3 for these experiments is to download the tar.gz file from the website: https://wordnet.princeton.edu/download/current-version#nix and follow the instructions in INSTALL. Installing wordnet directly (using apt-get or homebrew) let to difficulties with the Perl modules (WordNet could not always be found, even after definign WNHOME and WNSEARCHDIR).
+
+Installing Pycluster:
+
+If you use Anaconda, you can use that to install Pycluster.
+Otherwise, it can be downloaded from this website:
+http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm
+
+The code is written in Python 2 and currently not compatible with Python 3
+
+
+
+    
+    
