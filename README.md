@@ -86,7 +86,8 @@ Prepare WordNet-QueryData:
 
 Latest Repitition of Experiment: March 2018
 
-Carried out: WordNet 3 experiments with latest perl modules
+Carried out: WordNet 3 experiments with latest perl modules.
+
 Operating Systems:
 - MacOS (High Sierra)
 - Ubuntu 16.04
