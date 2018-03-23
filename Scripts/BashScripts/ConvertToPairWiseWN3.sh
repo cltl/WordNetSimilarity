@@ -6,7 +6,7 @@
 
 # creating output for complete set
 
-for set in mc rg
+for set in mc rg simlex-999
     do
         python ../ConversionScripts/convert_all_score_2_per_measurement.py ../../Output/AllPosCross/$set-conf-wn3_ws_2.05.txt ../../Output/PairWise/AllPosCross/$set-conf-wn3_ws205
         python ../ConversionScripts/convert_all_score_2_per_measurement.py ../../Output/AllPosId/$set-conf-wn3_ws_2.05.txt ../../Output/PairWise/AllPosId/$set-conf-wn3_ws205
@@ -14,7 +14,7 @@ for set in mc rg
     done
 
 
-for set in mc rg
+for set in mc rg simlex-999
     do
         for measurement in lch wup lesk
             do

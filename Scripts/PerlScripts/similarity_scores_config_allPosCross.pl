@@ -141,7 +141,8 @@ foreach my $pair (@pairs)
     my @words = split(' ', $pair);
     if ($#words != 1)
     {
-	print STDERR "Problem with input file: too many or too few words on one line"
+	print STDERR "Problem with input file: too many or too few words on one line";
+        print STDERR "$pair";
     }
     else
     {

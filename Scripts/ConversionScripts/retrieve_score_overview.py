@@ -6,7 +6,7 @@ import decimal
 scores = {'hso':[[],[]], 'jcn' : [[],[]], 'lch' : [[],[]], 'lesk' : [[],[]], 'lin' : [[],[]], 'path' : [[],[]], 'random' : [[],[]], 'res' : [[],[]], 'vector' : [[],[]], 'vector_pairs' : [[],[]], 'wup' : [[],[]]}
 
 #dictionary that defines for each data-pos-combi where in the scores list it is
-location_in_scores = {'mc-apc':0,'mc-api':1, 'mc-no':2,'rg-apc':3, 'rg-api':4, 'rg-no':5, 'mc-mc-apc':6, 'mc-mc-api':7, 'mc-mc-no':8}
+location_in_scores = {'mc-apc':0,'mc-api':1, 'mc-no':2,'rg-apc':3, 'rg-api':4, 'rg-no':5, 'mc-mc-apc':6, 'mc-mc-api':7, 'mc-mc-no':8,'simlex-999-apc':9,'simlex-999-api':10, 'simlex-999-no':11,}
 
 
 def get_pos_stat(description):
@@ -24,6 +24,7 @@ def get_values(val):
     output1 = ''
     output2 = ''
     output3 = ''
+    output4 = ''
     i = 0
     for vlist in val:
         score = ''
@@ -36,9 +37,11 @@ def get_values(val):
         #last three are set rg
         elif i < 7:
             output2 += '\t' + score.rstrip('-')
-        else:
+        elif i < 10:
             output3 += '\t' + score.rstrip('-')
-    return [output1, output2, output3]
+        else:
+            output4 += '\t' + score.rstrip('-')
+    return [output1, output2, output3, output4]
 
 def retrieve_scores(input_f, output_f):
     ifile = open(input_f, 'r')
@@ -63,8 +66,8 @@ def retrieve_scores(input_f, output_f):
             kend_t_l = scores.get(key)[1]
             #introducing 9 variations in scores
             if len(spear_r_l) == 0:
-                spear_r_l = [[],[],[],[],[],[],[],[],[]]
-                kend_t_l = [[],[],[],[],[],[],[],[],[]]
+                spear_r_l = [[],[],[],[],[],[],[],[],[],[],[],[]]
+                kend_t_l = [[],[],[],[],[],[],[],[],[],[],[],[]]
             spear_r_l[loc].append(round(spearm_r,4))
             kend_t_l[loc].append(round(kendall_t,4))
             scores[key] = [spear_r_l, kend_t_l]
@@ -72,6 +75,7 @@ def retrieve_scores(input_f, output_f):
     ifile.close()
 
     outf = open(output_f, 'w')
+    
     for k, v in scores.items():
         outf.write("::" + k + "::\n")
         sp_l = get_values(v[0])
@@ -79,11 +83,13 @@ def retrieve_scores(input_f, output_f):
         outf.write("\tMC_from_RG:"+ sp_l[0] + "\n")
         outf.write("\tRG:\t"+ sp_l[1] + "\n")
         outf.write("\tMC_from_MC:"+ sp_l[2] + "\n")
+        outf.write("\tSimlex-999:"+ sp_l[3] + "\n")
         k_l = get_values(v[1])
         outf.write("Kendall tau:\n")
         outf.write("\tMC_from_RG:"+ k_l[0] + "\n")
         outf.write("\tRG:\t"+ k_l[1] + "\n")
         outf.write("\tMC_from_MC:"+ k_l[2] + "\n")
+        outf.write("\tSimlex-999:"+ k_l[3] + "\n")
     outf.close()
 
 
@@ -94,13 +100,6 @@ def main(argv=None):
         print 'Usage: python retrieve_score_over.py results_overview_file_name\n'
     else:
         retrieve_scores(argv[1], argv[2])
-
-
-
-
-
-
-
 
 
 if __name__ == '__main__':

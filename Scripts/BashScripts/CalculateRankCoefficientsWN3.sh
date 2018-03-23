@@ -7,17 +7,14 @@
 
 
 
-for set in mc mc-mc rg
+for set in mc mc-mc rg simlex-999
     do
+        set2=$set
         if [ $set == "mc-mc" ]
             then
                 set2=mc
-        elif [ $set == "mc" ]
-            then
-                set2=mc
-            else
-                set2=rg
         fi
+        echo $set $set2
         for measurement in jcn lesk path lch vector lin res random wup vector_pairs hso
 			do 
 				echo $set, " conf ", $measurement, " all pos cross"
